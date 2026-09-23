@@ -1,0 +1,11 @@
+install:
+  commands:
+    - ["npm", "ci", "--include=dev"]
+
+run:
+  command: ["node", ".next/standalone/server.js"]
+
+profile:
+  label: "Credit Card Fraud Detection Demo"
+  description: "Credit card checkout form demo with Visa/Mastercard selection"
+  icon: icon.svg

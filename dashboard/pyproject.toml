@@ -1,0 +1,11 @@
+[project]
+name = "fraud-map-dashboard"
+version = "0.1.0"
+description = "Streamlit-in-Snowflake fraud transaction map dashboard"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit[snowflake]>=1.40",
+    "snowflake-snowpark-python>=1.20",
+    "pydeck>=0.9",
+    "pandas>=2.2",
+]

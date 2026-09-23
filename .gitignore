@@ -1,0 +1,96 @@
+# ---- OS / editor ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ---- Node / npm ----
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---- Next.js / build output ----
+.next/
+out/
+build/
+dist/
+output/
+*.tsbuildinfo
+next-env.d.ts
+
+# ---- Deployment platforms ----
+.vercel/
+.netlify/
+
+# ---- Tests / coverage ----
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+.playwright/
+.vitest/
+
+# ---- Secrets & local config ----
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p8
+*.p12
+rsa_key*
+secrets.json
+connections.toml
+
+# ---- Python (dashboard/streamlit, scripts) ----
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Logs & temp ----
+*.log
+logs/
+snowflake.log
+snowflake.log.*
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# ---- Snowflake / Cortex local state ----
+.snowflake/
+.cortex/plans/
+.reviews/
+
+# ---- Local scratch ----
+placeholder.txt

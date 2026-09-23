@@ -1,0 +1,23 @@
+definition_version: "2"
+
+entities:
+  credit_card_fraud_detection_demo:
+    type: snowflake-app
+    identifier:
+      name: CREDIT_CARD_FRAUD_DETECTION_DEMO
+      database: USER$EREITBERGER
+      schema: PUBLIC
+    artifacts:
+      - src: ./*
+        dest: ./
+        ignore:
+          - node_modules
+          - .env*
+          - __pycache__
+          - "*.pyc"
+          - .next
+          - .git
+          - snowflake.log
+
+    query_warehouse: COMPUTE_WH
+    code_workspace: USER$EREITBERGER.PUBLIC.SNOWFLAKE_APPS
