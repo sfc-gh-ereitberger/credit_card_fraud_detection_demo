@@ -27,7 +27,7 @@
                   v                               v
     +-------------------------+     +-------------------------+
     | Online Feature Store    |     | ML Inference Service    |
-    | (Postgres-backed, 10s)  |     | (XGBoost on SPCS)      |
+    | (Postgres-backed, ms)  |     | (XGBoost on SPCS)      |
     |                         |     |                         |
     | Returns:                |     | Input: 10 columns       |
     | HOME_LAT, HOME_LON,    |     | Output: class (0|1)     |
